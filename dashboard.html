@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./dashboard.css">
+    <title>Search Your Country</title>
+  </head>
+  <body>
+    <header>
+      <br>
+      <h1 class="header" >Search Your Country</h1>
+    </header>
+      <div class="btn-toggle" id="toggle">
+        <button class="btn btn-primary " id="signOutButton">Sign Out</button>
+       </div>
+    <section>
+      <div class="container">
+        <input class="search"  id="search" type="text" placeholder="Search the country"/>
+      </div>
+    </section>
+    <div class="modal" id="modal">
+        <div class="container">
+          <button class="btn-close" id="close"><i class="fas fa-times"></i></button>
+          <img src="" alt="" />
+          <div class="modal-body"></div>
+        </div>
+		</div>
+    <section>
+      <div class="container countries" id="countries">
+      </div>
+    </section>
+
+    <script src="./main.js"></script>
+    <script src="./services.js"></script>
+    <script src="./dashboard.js"></script> 
+  </body>
+</html> 
